@@ -1,9 +1,6 @@
 from datetime import datetime
 import pandas as pd
 
-df = pd.read_csv("../data/AAPL_TIME_SERIES_DAILY.csv")
-print(df.head())
-
 class StockDataLocal:
     """Class method to get and process local stock data"""
 
